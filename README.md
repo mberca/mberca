@@ -10,9 +10,30 @@ I’m interested in making complex questions easier to understand through resear
 analysis, and clear visual communication. This is a curated home for my analytical
 projects and career portfolio.
 
+**[Featured study](#featured-study)** ·
 **[Explore the projects](#selected-projects)** ·
 **[Find the R code](#find-your-way)** ·
 **[Visit my career portfolio ↗](https://mberca.github.io/cv-margarita/)**
+
+## Featured study
+
+### Titanic / Patterns, Prediction & Uncertainty
+
+**Real public data · R & Python · Association rules · Random forest · Bayesian analysis**
+
+<a href="https://mberca.github.io/titanic-patterns/">
+  <img src="https://raw.githubusercontent.com/mberca/titanic-patterns/main/outputs/story-preview.png" alt="Titanic real-data story: three analytical questions and Bayesian group-rate intervals." width="100%">
+</a>
+
+The same historical data, three different questions: what appears together,
+what predicts an outcome, and how certain are we? This study pairs visual
+storytelling with grouped validation, training-only preprocessing, and a shared
+held-out comparison across languages.
+
+**[Explore the story ↗](https://mberca.github.io/titanic-patterns/)** ·
+[R edition](https://github.com/mberca/titanic-patterns/tree/main/R) ·
+[Python edition](https://github.com/mberca/titanic-patterns/tree/main/Python) ·
+[Methodology](https://github.com/mberca/titanic-patterns/blob/main/METHODOLOGY.md)
 
 ## Selected projects
 
@@ -82,6 +103,7 @@ the synthetic analytical showcases above.
 **A clear question → transparent methods → an explorable result → honest limits.**
 
 R is my preferred analytical language. These projects also provide Python
-implementations so readers can compare approaches. The showcase datasets are
-invented—not anonymized customer, employee, or learner records—and the
-association rules are descriptive, not evidence of causality.
+implementations so readers can compare approaches. Basket Atlas and Learning Constellations use invented data—not anonymized
+customer, employee, or learner records. Titanic uses documented public historical
+data. Association rules and model coefficients are descriptive, not evidence
+of causality.
