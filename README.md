@@ -1,20 +1,21 @@
 <p align="center">
-  <img src="assets/profile-banner.png" alt="Good questions. Clearer connections." width="100%">
+  <img src="assets/profile-banner.png" alt="Good questions. Clearer connections. An ivory banner with teal and navy paths of inquiry and a warm ochre focal point." width="100%">
 </p>
 
 # Margarita Bermejo Cano
 
-**People Science Analyst · Research · Customer insights**
+**People Analytics · Applied Data Science · AI Readiness & Adoption**
 
-I turn employee feedback, customer evidence and research into clear
-recommendations. My work spans people science and AI-adoption research at
-Microsoft, customer-facing analytics at LinkedIn Glint, and regional
-measurement programmes at MetLife.
+I'm a People Science Analyst at Microsoft. I work with surveys, measurement
+and mixed-methods research to understand employee experience and how people
+work with AI. Before that, I worked in customer-facing people analytics at
+LinkedIn Glint and regional workforce measurement at MetLife.
 
-**R is my first choice.** A clear question, careful measurement and an honest
-account of uncertainty matter just as much as the tools.
+**R is my first choice. Curiosity is the constant.** I like following a question
+through the data, checking what changes the answer, and finding a clear way
+to share it.
 
-**[Selected research](#selected-research)** · **[Independent projects](#independent-projects)** · **[Connect on LinkedIn ↗](https://www.linkedin.com/in/margaritabermejocano/)**
+**[Research](#selected-research)** · **[Featured study](#featured-study)** · **[Worth a Look](#worth-a-look)** · **[Methods & code](#methods--code)** · **[Connect ↗](https://www.linkedin.com/in/margaritabermejocano/)**
 
 ## Selected research
 
@@ -27,9 +28,10 @@ Co-author of the collaborative 2023 report; contributor to early-user survey ana
 These are shared research contributions, distinct from the independent
 public-data projects below.
 
-## Independent projects
+## Featured study
 
-Public data, reproducible methods and two different ways to explore a question.
+An independent study using public historical data, with reproducible R and
+Python editions.
 
 ### Titanic / Patterns, Prediction & Uncertainty
 
@@ -51,7 +53,11 @@ the results describe patterns and predictions, not causes.
 
 **[Explore the story ↗](https://mberca.github.io/titanic-patterns/)** · [Code & methods](https://github.com/mberca/titanic-patterns)
 
-### Wonderland, Measured
+## Worth a Look
+
+A space for something new, recently revisited, or simply worth sharing.
+
+### October 2026 · Wonderland, Measured
 
 <p>
   <a href="https://mberca.github.io/alice-in-wonderland-analysis/">
@@ -69,7 +75,18 @@ MapReduce lab.
 The interesting part: a counting rule or a chapter’s length can change the
 answer. The reading room lets you follow the numbers back to the passages.
 
-**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/)** · [Code & methods](https://github.com/mberca/alice-in-wonderland-analysis)
+**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/)** · [Python code](https://github.com/mberca/alice-in-wonderland-analysis/tree/main/wonderland) · [Methodology](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/METHODOLOGY.md)
+
+## Methods & code
+
+My professional work brings together three things:
+
+| A question worth asking | Careful measurement | Findings people can use |
+|---|---|---|
+| Employee experience, retention and AI readiness | Survey design, psychometrics, factor analysis and mixed methods | Reproducible analysis, clear interpretation and practical recommendations |
+
+**Tools:** R · Python · SQL. The projects here are a place to explore and learn;
+they are separate from my professional research.
 
 <details>
 <summary>Code &amp; reproduction guides</summary>
