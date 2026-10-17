@@ -1,26 +1,43 @@
 <p align="center">
-  <img src="assets/profile-banner.png" alt="Good questions. Clearer connections. Research, analytics and visual storytelling." width="100%">
+  <img src="assets/profile-banner.png" alt="Good questions. Clearer connections." width="100%">
 </p>
 
 # Margarita Bermejo Cano
 
-**People science · Research · R-first data storytelling**
+**People Science Analyst · Research · Customer insights**
 
-I enjoy following a question through the data—and noticing the details that
-change how I read the answer. A different denominator, an assumption worth
-checking, a pattern that needs a second look.
+I turn employee feedback, customer evidence and research into clear
+recommendations. My work spans people science and AI-adoption research at
+Microsoft, customer-facing analytics at LinkedIn Glint, and regional
+measurement programmes at MetLife.
 
-**R is my first choice.** I’m learning by building, comparing methods, and finding
-clearer ways to share what I discover.
+**R is my first choice.** A clear question, careful measurement and an honest
+account of uncertainty matter just as much as the tools.
 
-**[Featured study](#featured-study)** ·
-**[Worth a Look](#worth-a-look)** ·
-**[Find the code](#find-your-way)** ·
-**[Visit my career portfolio ↗](https://mberca.github.io/cv-margarita/)**
+**[Selected research](#selected-research)** · **[Independent projects](#independent-projects)** · **[Connect on LinkedIn ↗](https://www.linkedin.com/in/margaritabermejocano/)**
 
-## Featured study
+## Selected research
+
+**[2025 Agentic Teaming & Trust Research Report ↗](https://techcommunity.microsoft.com/t5/s/gxcuf89792/attachments/gxcuf89792/MicrosoftVivaBlog/1027.2/1/2025%20Agentic%20Teaming%20%26%20Trust%20Research%20Report.pdf)**<br>
+Co-author of the full report; lead analyst on the wider research programme.
+
+**[Early LLM-based tools and enterprise productivity ↗](https://www.microsoft.com/en-us/research/publication/early-llm-based-tools-for-enterprise-information-workers-likely-provide-meaningful-boosts-to-productivity/)**<br>
+Co-author of the collaborative 2023 report; contributor to early-user survey analysis.
+
+These are shared research contributions, distinct from the independent
+public-data projects below.
+
+## Independent projects
+
+Public data, reproducible methods and two different ways to explore a question.
 
 ### Titanic / Patterns, Prediction & Uncertainty
+
+<p>
+  <a href="https://mberca.github.io/titanic-patterns/">
+    <img src="https://raw.githubusercontent.com/mberca/titanic-patterns/main/outputs/story-preview.png" alt="Titanic study preview: three analytical questions, survival patterns, and Bayesian group-rate intervals." width="100%">
+  </a>
+</p>
 
 **One dataset. Three ways to ask a question.**
 
@@ -32,26 +49,15 @@ The study uses a documented **891-passenger subset of public historical data**,
 not a complete passenger manifest. The two editions share a held-out comparison;
 the results describe patterns and predictions, not causes.
 
-**[Explore the story ↗](https://mberca.github.io/titanic-patterns/)** ·
-[R edition](https://github.com/mberca/titanic-patterns/tree/main/R) ·
-[Python edition](https://github.com/mberca/titanic-patterns/tree/main/Python) ·
-[Methodology](https://github.com/mberca/titanic-patterns/blob/main/METHODOLOGY.md) ·
-[Repository](https://github.com/mberca/titanic-patterns)
+**[Explore the story ↗](https://mberca.github.io/titanic-patterns/)** · [Code & methods](https://github.com/mberca/titanic-patterns)
 
-<details>
-  <summary>Take a look inside the study</summary>
-  <p>
-    <a href="https://mberca.github.io/titanic-patterns/">
-      <img src="https://raw.githubusercontent.com/mberca/titanic-patterns/main/outputs/story-preview.png" alt="Titanic study preview: three analytical questions, survival patterns, and Bayesian group-rate intervals." width="100%">
-    </a>
-  </p>
-</details>
+### Wonderland, Measured
 
-## Worth a Look
-
-A space for something new, recently revisited, or worth sharing.
-
-### October 2026 · Wonderland, Measured
+<p>
+  <a href="https://mberca.github.io/alice-in-wonderland-analysis/">
+    <img src="https://raw.githubusercontent.com/mberca/alice-in-wonderland-analysis/main/docs/assets/showcase.png" alt="Wonderland, Measured: a preview of the literary-data reading room and original counting question." width="100%">
+  </a>
+</p>
 
 **Two words, a Python dictionary, and a very curious book.**
 
@@ -63,21 +69,12 @@ MapReduce lab.
 The interesting part: a counting rule or a chapter’s length can change the
 answer. The reading room lets you follow the numbers back to the passages.
 
-**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/)** ·
-[Python code](https://github.com/mberca/alice-in-wonderland-analysis/tree/main/wonderland) ·
-[Methodology](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/METHODOLOGY.md) ·
-[Repository](https://github.com/mberca/alice-in-wonderland-analysis)
+**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/)** · [Code & methods](https://github.com/mberca/alice-in-wonderland-analysis)
 
 <details>
-  <summary>Take a look inside the reading room</summary>
-  <p>
-    <a href="https://mberca.github.io/alice-in-wonderland-analysis/">
-      <img src="https://raw.githubusercontent.com/mberca/alice-in-wonderland-analysis/main/docs/assets/showcase.png" alt="Wonderland, Measured: a preview of the literary-data reading room and original counting question." width="100%">
-    </a>
-  </p>
-</details>
+<summary>Code &amp; reproduction guides</summary>
 
-## Find your way
+### Find your way
 
 **Titanic in R:** [Getting-started guide](https://github.com/mberca/titanic-patterns/blob/main/R/README.md) ·
 [Read the analysis](https://github.com/mberca/titanic-patterns/blob/main/R/analysis.R).
@@ -89,20 +86,20 @@ answer. The reading room lets you follow the numbers back to the passages.
 The public stories are **static browser experiences**; no installation is needed
 to explore them. The repositories contain the code and reproduction instructions.
 
-## Career & research
-
-For my background and selected professional work, start with my
-**[career portfolio ↗](https://mberca.github.io/cv-margarita/)**.
-Its [source repository](https://github.com/mberca/cv-margarita) is separate from
-the independent analytical projects above.
+</details>
 
 ## How I work & learn
 
-I want the explanation to be as considered as the analysis: a clear question,
-a comparison that makes sense, and room for uncertainty. Checking assumptions
-and trying another method are part of the exploration, not just the final checks.
+I enjoy following a question through the data—and noticing the details that
+change how I read the answer. A different denominator, an assumption worth
+checking, a pattern that needs a second look. These independent projects are
+where I learn by building, compare methods and explore clearer ways to share
+what I discover.
 
 These are **AI-assisted learning and showcase projects**, not claims of business
 impact. Titanic uses public historical data; Wonderland explores a documented
 edition of a public-domain novel. Associations and predictions are not evidence
 of causality, and word counts are not measures of literary importance.
+
+For my professional background or a conversation about the work,
+**[find me on LinkedIn ↗](https://www.linkedin.com/in/margaritabermejocano/)**.
