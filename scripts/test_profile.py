@@ -31,6 +31,19 @@ class ProfileTests(unittest.TestCase):
         self.assertIn("### October 2026 · Wonderland, Measured", rotating)
         self.assertIn("METHODOLOGY.md", rotating)
 
+    def test_all_three_publications_have_individual_links(self):
+        research = self.readme.split("## Selected research\n", 1)[1]
+        research = research.split("\n## Featured study", 1)[0]
+        links = re.findall(r"\]\((https://[^)]+)\)", research)
+        self.assertEqual(len(links), 3)
+        self.assertEqual(len(set(links)), 3)
+        self.assertIn(
+            "https://adoption.microsoft.com/files/viva/"
+            "The-state-of-AI-change-readiness-eBook.pdf",
+            links,
+        )
+        self.assertEqual(research.count("Co-author"), 3)
+
     def test_private_destinations_are_not_promoted(self):
         for project in ("basket-atlas", "learning-constellations", "cv-margarita"):
             with self.subTest(project=project):

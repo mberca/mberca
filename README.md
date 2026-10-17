@@ -22,6 +22,9 @@ to share it.
 **[2025 Agentic Teaming & Trust Research Report ↗](https://techcommunity.microsoft.com/t5/s/gxcuf89792/attachments/gxcuf89792/MicrosoftVivaBlog/1027.2/1/2025%20Agentic%20Teaming%20%26%20Trust%20Research%20Report.pdf)**<br>
 Co-author of the full report; lead analyst on the wider research programme.
 
+**[The State of AI Change Readiness ↗](https://adoption.microsoft.com/files/viva/The-state-of-AI-change-readiness-eBook.pdf)**<br>
+Co-author of the 2024 eBook on organisational AI readiness.
+
 **[Early LLM-based tools and enterprise productivity ↗](https://www.microsoft.com/en-us/research/publication/early-llm-based-tools-for-enterprise-information-workers-likely-provide-meaningful-boosts-to-productivity/)**<br>
 Co-author of the collaborative 2023 report; contributor to early-user survey analysis.
 
