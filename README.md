@@ -14,8 +14,8 @@ checking, a pattern that needs a second look.
 clearer ways to share what I discover.
 
 **[Featured study](#featured-study)** ·
-**[Explore the projects](#selected-projects)** ·
-**[Find the R code](#find-your-way)** ·
+**[Worth a Look](#worth-a-look)** ·
+**[Find the code](#find-your-way)** ·
 **[Visit my career portfolio ↗](https://mberca.github.io/cv-margarita/)**
 
 ## Featured study
@@ -47,62 +47,47 @@ the results describe patterns and predictions, not causes.
   </p>
 </details>
 
-## Selected projects
+## Worth a Look
 
-Two explorations with a question in common:
-**compared with what?** Both use **100% synthetic data**, with runnable
-**R and Python** editions.
+A space for something new, recently revisited, or worth sharing.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://mberca.github.io/basket-atlas/">
-        <img src="https://raw.githubusercontent.com/mberca/basket-atlas/main/outputs/preview.png" alt="Basket Atlas preview: bookstore association network and a rule compared with its baseline." width="100%">
-      </a>
-      <h3>Basket Atlas</h3>
-      <p>Which items appear in the same basket at an imaginary bookstore? A visual exploration of why a popular pairing is not always a surprising one.</p>
-      <p><strong>Methods:</strong> Apriori · market-basket analysis · visual explanation</p>
-      <p>
-        <a href="https://mberca.github.io/basket-atlas/"><strong>Explore demo ↗</strong></a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/mberca/basket-atlas/tree/main/R">R edition</a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/mberca/basket-atlas">Repository</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://mberca.github.io/learning-constellations/">
-        <img src="https://raw.githubusercontent.com/mberca/learning-constellations/main/outputs/hero.png" alt="Learning Constellations preview: skill network and directed association-rule matrix." width="100%">
-      </a>
-      <h3>Learning Constellations</h3>
-      <p>Which learning topics appear together—and does the pattern hold within a track? A closer look at how choosing the comparison group changes the story.</p>
-      <p><strong>Methods:</strong> Apriori · stratified analysis · denominator awareness</p>
-      <p>
-        <a href="https://mberca.github.io/learning-constellations/"><strong>Explore demo ↗</strong></a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/mberca/learning-constellations/tree/main/R">R edition</a>
-        &nbsp;·&nbsp;
-        <a href="https://github.com/mberca/learning-constellations">Repository</a>
-      </p>
-    </td>
-  </tr>
-</table>
+### October 2026 · Wonderland, Measured
+
+**Two words, a Python dictionary, and a very curious book.**
+
+I revisited a programming project I first wrote in 2013/14: counting **Alice**
+and **Rabbit** in *Alice’s Adventures in Wonderland*. The original question
+is still there, now alongside chapter charts, a searchable text, and a local
+MapReduce lab.
+
+The interesting part: a counting rule or a chapter’s length can change the
+answer. The reading room lets you follow the numbers back to the passages.
+
+**[Visit the reading room ↗](https://mberca.github.io/alice-in-wonderland-analysis/)** ·
+[Python code](https://github.com/mberca/alice-in-wonderland-analysis/tree/main/wonderland) ·
+[Methodology](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/METHODOLOGY.md) ·
+[Repository](https://github.com/mberca/alice-in-wonderland-analysis)
+
+<details>
+  <summary>Take a look inside the reading room</summary>
+  <p>
+    <a href="https://mberca.github.io/alice-in-wonderland-analysis/">
+      <img src="https://raw.githubusercontent.com/mberca/alice-in-wonderland-analysis/main/docs/assets/showcase.png" alt="Wonderland, Measured: a preview of the literary-data reading room and original counting question." width="100%">
+    </a>
+  </p>
+</details>
 
 ## Find your way
 
 **Titanic in R:** [Getting-started guide](https://github.com/mberca/titanic-patterns/blob/main/R/README.md) ·
 [Read the analysis](https://github.com/mberca/titanic-patterns/blob/main/R/analysis.R).
 
-| You want to… | Basket Atlas | Learning Constellations |
-|---|---|---|
-| **Start in R / RStudio** | [R getting-started guide](https://github.com/mberca/basket-atlas/blob/main/R/README.md) | [R getting-started guide](https://github.com/mberca/learning-constellations/blob/main/R/README.md) |
-| **Read the R analysis** | [Apriori + charts](https://github.com/mberca/basket-atlas/blob/main/R/analysis.R) | [Track-aware Apriori + charts](https://github.com/mberca/learning-constellations/blob/main/R/analysis.R) |
-| **Run an interactive R app locally** | [Shiny app](https://github.com/mberca/basket-atlas/blob/main/R/app.R) | [Shiny app](https://github.com/mberca/learning-constellations/blob/main/R/app.R) |
-| **Read the executed Python notebook** | [Bookstore study](https://github.com/mberca/basket-atlas/blob/main/notebooks/01_bookstore_study.ipynb) | [Learning exploration](https://github.com/mberca/learning-constellations/blob/main/notebooks/01_exploration.ipynb) |
-| **Understand the assumptions and limits** | [Project guide](https://github.com/mberca/basket-atlas#reading-the-metrics) | [Project guide](https://github.com/mberca/learning-constellations#what-the-metrics-mean) |
+**Wonderland in Python:** [Getting-started guide](https://github.com/mberca/alice-in-wonderland-analysis#reproduce-everything) ·
+[Text-analysis code](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/wonderland/core.py) ·
+[Local MapReduce lab](https://github.com/mberca/alice-in-wonderland-analysis/blob/main/wonderland/mapreduce.py).
 
-The public demos are **static browser experiences**. The two synthetic projects
-also have **local Shiny apps**; GitHub Pages does not run an R server.
+The public stories are **static browser experiences**; no installation is needed
+to explore them. The repositories contain the code and reproduction instructions.
 
 ## Career & research
 
@@ -118,6 +103,6 @@ a comparison that makes sense, and room for uncertainty. Checking assumptions
 and trying another method are part of the exploration, not just the final checks.
 
 These are **AI-assisted learning and showcase projects**, not claims of business
-impact. Basket Atlas and Learning Constellations use invented records—not
-anonymized customer, employee, or learner data. Across these studies, associations
-and predictions are not evidence of causality.
+impact. Titanic uses public historical data; Wonderland explores a documented
+edition of a public-domain novel. Associations and predictions are not evidence
+of causality, and word counts are not measures of literary importance.
