@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.png" alt="Good questions. Clearer connections. An ivory banner with teal and navy paths of inquiry and a warm ochre focal point." width="100%">
+  <img src="assets/profile-banner.png" alt="Good questions. Clearer connections. An ivory banner with charcoal and berry paths of inquiry." width="100%">
 </p>
 
 # Margarita Bermejo Cano

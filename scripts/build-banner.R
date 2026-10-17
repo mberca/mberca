@@ -14,8 +14,8 @@ if (!all(file.exists(fonts))) {
 }
 systemfonts::register_font("Banner Lora", plain = fonts[1], italic = fonts[2])
 
-color <- c(paper = "#F7F3EA", ink = "#203C49", teal = "#236D70",
-           mist = "#B8CCC5", faint = "#E3E5D9", gold = "#BC8250")
+color <- c(paper = "#F7F4EF", ink = "#242424", accent = "#B11F4B",
+           mist = "#C9B9BD", faint = "#E4DED9")
 dir.create("assets", showWarnings = FALSE)
 ragg::agg_png("assets/profile-banner.png", width = 1680, height = 440,
               units = "px", res = 144, background = color["paper"])
@@ -49,10 +49,10 @@ bezier <- function(points, fill, width = 1) {
 }
 
 text("Good questions.", 78, 156, 39, "ink")
-text("Clearer connections.", 78, 260, 39, "teal", italic = TRUE)
+text("Clearer connections.", 78, 260, 39, "accent", italic = TRUE)
 
-line(c(82, 174), c(347, 347), "gold", 1.5)
-circle(184, 347, 3, fill = "gold", stroke = "gold", width = .5)
+line(c(82, 174), c(347, 347), "accent", 1.5)
+circle(184, 347, 3, fill = "accent", stroke = "accent", width = .5)
 
 theta <- seq(-1.23, 4.17, length.out = 240)
 line(1334 + 171 * cos(theta), 220 + 151 * sin(theta), "faint", 1)
@@ -60,7 +60,7 @@ theta <- seq(-.52, 2.4, length.out = 140)
 line(1334 + 189 * cos(theta), 220 + 168 * sin(theta), "faint", .7)
 
 path_a <- bezier(rbind(c(1091, 296), c(1190, 349),
-                      c(1440, 62), c(1560, 143)), "teal", 1.7)
+                      c(1440, 62), c(1560, 143)), "accent", 1.7)
 path_b <- bezier(rbind(c(1114, 123), c(1329, 14),
                       c(1284, 397), c(1548, 291)), "ink", 1.2)
 path_c <- bezier(rbind(c(1153, 332), c(1090, 128),
@@ -72,11 +72,11 @@ distance <- outer(path_a[, 1], path_b[, 1], "-")^2 +
 crossing <- arrayInd(which.min(distance), dim(distance))[1]
 overpass <- seq.int(max(1, crossing - 4), min(nrow(path_a), crossing + 4))
 line(path_a[overpass, 1], path_a[overpass, 2], "paper", 5)
-line(path_a[overpass, 1], path_a[overpass, 2], "teal", 1.7)
+line(path_a[overpass, 1], path_a[overpass, 2], "accent", 1.7)
 
 for (idx in c(16, 56, 105, 179, 223)) {
   p <- path_a[idx, ]
-  circle(p[1], p[2], 4, stroke = "teal", width = 1)
+  circle(p[1], p[2], 4, stroke = "accent", width = 1)
 }
 for (idx in c(23, 77, 165, 223)) {
   p <- path_b[idx, ]
@@ -88,8 +88,8 @@ for (idx in c(24, 99, 176, 228)) {
 }
 
 p <- path_a[143, ]
-circle(p[1], p[2], 16, stroke = "gold", width = .7)
-circle(p[1], p[2], 6, fill = "gold", stroke = "gold", width = .7)
+circle(p[1], p[2], 16, stroke = "accent", width = .7)
+circle(p[1], p[2], 6, fill = "accent", stroke = "accent", width = .7)
 
 grid::popViewport()
 invisible(grDevices::dev.off())
